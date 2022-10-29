@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Lecture/ShareFolder/12_android/toy_project/app/src/main/res/layout/activity_detail.xml" value="0.33" />
+        <entry key="..\:/Lecture/ShareFolder/12_android/toy_project/app/src/main/res/layout/activity_detail_acitivity.xml" value="0.31868131868131866" />
+        <entry key="..\:/Lecture/ShareFolder/12_android/toy_project/app/src/main/res/layout/activity_detail_activity.xml.xml" value="0.2543859649122807" />
+        <entry key="..\:/Lecture/ShareFolder/12_android/toy_project/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Lecture/ShareFolder/12_android/toy_project/app/src/main/res/layout/comment_recycler.xml" value="0.5" />
+        <entry key="..\:/Lecture/ShareFolder/Android-toyproject-detail/app/src/main/res/layout/activity_detail.xml" value="0.33" />
+        <entry key="..\:/Lecture/ShareFolder/Android-toyproject-detail/app/src/main/res/layout/comment_recycler.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3515625" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

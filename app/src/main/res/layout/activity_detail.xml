@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@drawable/background" android:layout_gravity="center">
+    <ImageView
+            android:layout_width="411dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/logo"
+            android:id="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@color/green" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.0"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="353dp"
+            android:layout_height="581dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/linearLayout2"
+            android:background="#FFFFFF"
+            android:layout_marginTop="100dp">
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="161dp"
+                android:id="@+id/imageView"
+                android:layout_marginBottom="5dp"
+                app:srcCompat="@drawable/example"
+                android:scaleType = "fitXY"
+        />
+        <TextView
+                android:text="(주) 디노담양힐링파크 지점"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/facltNm"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="5dp"
+        />
+        <TextView
+                android:text="일반야영장,카라반,글램핑"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/induty"
+                android:textSize="12sp"
+                tools:layout_editor_absoluteY="545dp"
+                tools:layout_editor_absoluteX="-175dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+        />
+        <TextView
+                android:text="위치 : 전남 담양군 봉산면 탄금길 9-26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/addr1"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+
+        />
+        <TextView
+                android:text="캠핑장 소개"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/introduce"
+                android:textSize="15sp"
+                android:textColor="#DB45E6"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="5dp"
+        />
+        <TextView
+                android:text="담양 힐링파크에서 일상 속 쌓인 스트레스를 풀어보자 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lineIntro"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+        />
+
+        <TextView
+                android:text="담양군 봉산면 기곡리에 위치한 힐링파크 담양점은 도심과 떨어져 조용히 숲과 자연에서 자유로이 쉴수 있는 힐링파크다. 이곳은 기존 봉산관광농원이라는 이름으로 1998년 농림부 1등급 판정을 받은 시설로 어느 휴양지에서도 느끼지 못했던 색다른 휴식과 즐거움을 동시에 느낄 수 있다. 담양 힐링파크는 대한민국에서 둘째가라면 서러울 정도로 많은 편의시설을 자랑하고 있는데 책을 좋아하는 사람이라면 누구든 이용 가능한 실내 독서실과 저수지낚시터가 있다. 또한 족구, 배드민턴 등 함께 뛰며 게임할 수 있는 족구장이 있으며 배드민턴은 무료 대여중이다. 이밖에도 주말 행복한 하루를 밤하늘을 보며 마감할 수 있는 주말 폭죽서비스가 있다. 이곳은 ‘동물의 왕국’이라고 해도 과언이 아닐 정도로 다양한 동물들과 시간을 보낼 수 있는데 미니동물원에서는 토끼에게 먹이도 주고 만져보며 교감할 수 있다. 그리고 담양곤충체험관이 있어 자연, 곤충과 친해질 수 있으며 이용료는 무료다. 반려동물이 출입이 가능하므로 자신의 반려동물과도 추억을 쌓을 수 있다"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="4"
+                android:ellipsize="end"
+                android:id="@+id/intro"
+                android:textSize="12sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+        />
+        <TextView
+                android:text="편의시설 : 전기, 무선인터넷, 장작판매, 온수, 트렘폴린, 물놀이장, 놀이터, 산책로, 운동시설, 마트, 편의점"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sbrsCl"
+                android:textStyle="bold"
+                android:textColor="#7E9CD8"
+                android:textSize="12sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+        />
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+            >
+                <TextView
+                        android:text="Comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/commentId"
+                        android:layout_marginBottom="48dp"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="12dp"
+                />
+                <EditText
+                        android:layout_width="208dp"
+                        android:layout_height="50dp"
+                        android:inputType="textMultiLine"
+                        android:gravity="start|top"
+                        android:hint="입력하세요"
+                        android:textSize="12dp"
+                        android:ems="10"
+                        android:id="@+id/editComment"
+                        android:layout_marginEnd="24dp"/>
+                <Button
+                        android:text="등록"
+                        android:textSize="8sp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/saveButton"
+                        android:backgroundTint="#81D337"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="60dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+
+            android:layout_width="420dp"
+            android:layout_height="107dp"
+            android:id="@+id/recyclerView"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout2"
+            android:layout_marginTop="450dp"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
